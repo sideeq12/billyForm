@@ -2,10 +2,20 @@ body{
     padding-top: 50px;
 }
 h3{
-    margin-left : 100px ;
-    margin-bottom: 20px;
-    /* color: #334195; */
     color : #034C3C; 
+}
+.span{
+    width: fit-content;
+    display: flex;
+    margin-left: 100px;
+    
+}
+.span hr{
+    width: 150px;
+    height: 10px;
+    background: red;
+    margin-top: 22px;
+    margin-left: -160px;
 }
 .bg{
     /* background-color: #020887; */
@@ -58,4 +68,17 @@ button{
     color : white;
     border: none;
     padding: 5px 5px;
+}
+
+
+@media (max-width : 900px) {
+    span{
+        margin-left: 0px;
+    }
+    body{
+        padding-left: 20px;
+    }
+    .all img{
+        display: none;
+    }
 }
