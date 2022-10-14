@@ -14,7 +14,7 @@
     <div class="all">
         <div class="bodylayout">
             <h4>Kindly fill the form.</h4>
-            <form action="">
+            <form action="POST" data-netlify="true">
                 <div class="form-data">
                    <label for="establishment">Your Favourite dining establishment ?</label>
                    <input type="text" required name="establishment"/> 
@@ -47,6 +47,10 @@
                  <div class="form-data">
                     <label for="state">What state is it in ?</label>
                     <input type="text" name="state" required /> 
+                 </div>
+                 <div class="form-data">
+                    <label for="email">What state is it in ?</label>
+                    <input type="email" name="email" required /> 
                  </div>
                  <button type="submit">Submit</button>
             </form>
