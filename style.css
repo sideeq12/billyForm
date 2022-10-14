@@ -1,0 +1,37 @@
+body{
+    padding-top: 50px;
+}
+h3{
+    margin-left : 100px ;
+    margin-bottom: 50px;
+}
+
+.bodylayout{
+    display: flex;
+    flex-direction: column;
+    gap : 0.3rem;
+    margin: 20px auto;
+    max-width: 400px;
+    margin-top: 50px;
+}
+.form-data{
+    display: flex;
+    flex-direction: column;
+    gap:  0.2rem;
+    margin-top: 10px;
+}
+.form-data input, .form-data textarea{
+    /* color : rgba(0,0,0,0.4);
+    border-radius: 3px; */
+}
+.form-data input{
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.082);
+    border: none;
+}
+.form-data textarea{
+    height: 50px;
+}
+.form-data select{
+    height: 30px;
+}
