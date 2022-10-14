@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Submission</title>
+</head>
+<body>
+    <div class="bodylayout">
+        <form action="">
+            <div class="form-control">
+               <label for="establishment">Your Favourite dining establishment ?</label>
+               <input type="text" required name="establishment"/> 
+            </div>
+            <div class="form-control">
+                <label for="speciality">What is special about this establishment ?</label>
+                <textarea type="text" name="speciality" required> </textarea> 
+             </div>
+             <div class="form-control">
+                <label for="category">Kindly select a category :</label>
+                <select name="category">
+                    <option value="Relaxed">Relaxed</option>
+                    <option value="esciting">Exciting</option>
+                    <option value="Social">Social</option>
+                    <option value="fineDining">Fine Dining</option>
+                </select>
+             </div>
+             <div class="form-control">
+                <label for="category">Price range:</label>
+                <select name="category">
+                    <option value="less than 100">less than $100</option>
+                    <option value="100 to 500">$100 to $500</option>
+                    <option value="500 50 1000">$500 to $1000</option>
+                </select>
+             </div>
+             <div class="form-control">
+                <label for="city">What city is it in ?</label>
+                <input type="text" name="city" required /> 
+             </div>
+             <div class="form-control">
+                <label for="state">What state is it in ?</label>
+                <input type="text" name="state" required /> 
+             </div>
+        </form>
+    </div>
+</body>
+</html>
