@@ -17,15 +17,15 @@
             <form action="POST" data-netlify="true">
                 <div class="form-data">
                    <label for="establishment">Your Favourite dining establishment ?</label>
-                   <input type="text" required name="establishment"/> 
+                   <input type="text" id="establishment" required name="establishment"/> 
                 </div>
                 <div class="form-data">
                     <label for="speciality">What is special about this establishment ?</label>
-                    <textarea type="text" name="speciality" required> </textarea> 
+                    <textarea type="text" name="speciality" id="speciality" required> </textarea> 
                  </div>
                  <div class="form-data">
                     <label for="category">Kindly select a category :</label>
-                    <select name="category">
+                    <select name="category" id="category">
                         <option value="Relaxed">Relaxed</option>
                         <option value="esciting">Exciting</option>
                         <option value="Social">Social</option>
@@ -33,8 +33,8 @@
                     </select>
                  </div>
                  <div class="form-data">
-                    <label for="category">Price range:</label>
-                    <select name="category">
+                    <label for="price range">Price range:</label>
+                    <select name="price range" id="price range">
                         <option value="less than 100">less than $100</option>
                         <option value="100 to 500">$100 to $500</option>
                         <option value="500 50 1000">$500 to $1000</option>
@@ -42,15 +42,15 @@
                  </div>
                  <div class="form-data">
                     <label for="city">What city is it in ?</label>
-                    <input type="text" name="city" required /> 
+                    <input type="text" name="city" id="city" required /> 
                  </div>
                  <div class="form-data">
                     <label for="state">What state is it in ?</label>
-                    <input type="text" name="state" required /> 
+                    <input type="text" name="state"id="state" required /> 
                  </div>
                  <div class="form-data">
-                    <label for="email">What state is it in ?</label>
-                    <input type="email" name="email" required /> 
+                    <label for="email">Email uses as contact reference for Monthly Giveaway ?</label>
+                    <input type="email" name="email"  id="email" required /> 
                  </div>
                  <button type="submit">Submit</button>
             </form>
