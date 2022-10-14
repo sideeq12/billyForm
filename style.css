@@ -4,6 +4,7 @@ body{
 h3{
     margin-left : 100px ;
     margin-bottom: 50px;
+    color: #334195;;
 }
 
 .bodylayout{
@@ -17,21 +18,24 @@ h3{
 .form-data{
     display: flex;
     flex-direction: column;
-    gap:  0.2rem;
-    margin-top: 10px;
+    margin-top: 5px;
 }
-.form-data input, .form-data textarea{
-    /* color : rgba(0,0,0,0.4);
-    border-radius: 3px; */
-}
+
 .form-data input{
     height: 32px;
-    background-color: rgba(0, 0, 0, 0.082);
-    border: none;
+    /* border: none; */
+    margin-bottom: 10px;
 }
 .form-data textarea{
     height: 50px;
 }
 .form-data select{
     height: 30px;
+}
+button{
+    width: 100%;
+    background-color: #334195;
+    color : white;
+    border: none;
+    padding: 5px 5px;
 }
